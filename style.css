@@ -124,6 +124,28 @@ body {
     color: black;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    background-image: url(images/profile.jpg);
+.carousel-control-prev{
+    width: 20px;
+    height: 20px;
+    /* background-color: rgb(245, 226, 226);
+    border-radius: 50%; */
+    opacity: .5;
+    left: -4px;
+    /* margin-top: 15px; */
+    
 }
+.carousel-control-next{
+    width: 20px;
+    height: 20px;
+    /* background-color: purple;
+    border-radius: 50%; */
+    right: -4px;
+    opacity: .5;
+    margin-top: 10px;
+    
+}
+
+.my-carousel-link{
+    text-decoration: none;
+}
+

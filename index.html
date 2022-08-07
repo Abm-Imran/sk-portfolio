@@ -27,30 +27,38 @@
     <!-- Navigation Part -->
     <section>
         <ul class="navbar-nav custom-nav-item-position  d-flex flex-column justify-content-center">
-            <li class="nav-item"><a href="" class="nav-link ">H</a></li>
-            <li class="nav-item"><a href="" class="nav-link border-top">P</a></li>
-            <li class="nav-item"><a href="" class="nav-link border-top">C</a></li>
-            <li class="nav-item"><a href="" class="nav-link border-top">A</a></li>
-            <li class="nav-item"><a href="" class="nav-link border-top">G</a></li>
-            <li class="nav-item"><a href="" class="nav-link border-top">S</a></li>
+            <li class="nav-item custom-navbar-shadow"><a href="#my-profile" class="nav-link "><i class="fs-6 opacity-50 text-light fa-solid fa-user"></i></a></li>
+            <li class="nav-item custom-navbar-shadow"><a href="#my-services" class="nav-link custom-border"><i class="fs-6 opacity-50 text-light fa-solid fa-gear"></i></a></li>
+            <li class="nav-item custom-navbar-shadow"><a href="#gallary-portfolio" class="nav-link custom-border"><i class="fs-6 opacity-50 text-light fa-solid fa-briefcase"></i></a></li>
+            <li class="nav-item custom-navbar-shadow"><a href="#clients" class="nav-link custom-border"><i class="fs-6 opacity-50 text-light fa-solid fa-user-group"></i></a></li>
+            <li class="nav-item custom-navbar-shadow"><a href="#education-work" class="nav-link custom-border"><i class="fs-6 opacity-50 text-light fa-solid fa-circle-user"></i></a></li>
+            <li class="nav-item custom-navbar-shadow"><a href="#my-blogs" class="nav-link custom-border"><i class="fs-6 opacity-50 text-light fa-solid fa-pen-clip"></i></a></li>
+            <li class="nav-item custom-navbar-shadow"><a href="#contacts" class="nav-link custom-border"><i class="fs-6 opacity-50 text-light fa-solid fa-envelope"></i></a></li>
         </ul>
     </section>
 
     <main>
         <!-- profile part -->
-        <section class="container">
+        <section id="my-profile" class="container my-custom-margin">
             <div class="row pt-5">
                 <div class="col-lg-5 custom-profile">
-                    <img src="images/tamim.png" class="" alt="">
+                    <img src="images/profile2.jpg" class="" alt="">
                 </div>
-                <div class="col-lg-7">
-                    <p>i am tracy moreno</p>
-                    <h1>Creative Director based in Australia</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat aperiam alias odit,
+                <div class=" col-12 col-md-7 col-lg-7 my-auto mx-0">
+                    <p class="fw-bolder"><span class="text-muted">I am</span> <strong>Peter Jackson</strong></p>
+                    <h1 class="profile-title"><span class="text-warning">Creative</span> <span class="text-success">Director</span> <br> based in Australia</h1>
+                    <p class="profile-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, quaerat aperiam alias odit,
                         deleniti veritatis neque, nulla soluta numquam quis officia! Facere quod cupiditate excepturi
                         velit ullam laborum quisquam ab.</p>
-                    <p>Copywriting / Marketing / Photoshoot / Consulting</p>
-                    <br><br><br><br><br>
+                    <!-- <p class="profile-category"><span class="text-warning">Copywriting</span> / <span class="text-warning">Marketing</span> / <span class="text-warning">Photoshoot</span> / <span class="text-warning">Consulting</span></p> -->
+
+                    <p class="profile-category">
+                        <a href=""><span class="text-warning">Copywriting </span></a> /
+                        <a href=""><span class="text-warning">Marketing </span></a> /
+                        <a href=""><span class="text-warning">Photoshot </span></a> /
+                        <a href=""><span class="text-warning">Consulting</span></a> 
+                        </p>
+                    <br><br><br>
                     <div class="box">
                         <div class="box-content">
                             <a class="fontawesome-icon" href=""><i class="fa-solid fa-arrow-down-long"></i></a>
@@ -61,8 +69,8 @@
         </section>
 
         <!-- Marketing/Services part -->
-        <section class="container">
-            <div class="row row-cols-md-3 g-4">
+        <section id="my-services" class="container my-custom-margin">
+            <div class="row row-cols-md-3 row-cols-sm-1 g-4">
                 <div class="col">
                     <div class="card custom-shadow">
 
@@ -100,8 +108,8 @@
         </section>
 
         <!-- Gallary Part -->
-        <section class="container mb-5">
-            <h1>Creative Design based in Australia</h1>
+        <section id="gallary-portfolio" class="container my-custom-margin">
+            <p class="text-center custom-gallery-heading" >Creative Director <br> based in Australia</p>
             <div class="row">
                 <div class="col-lg-6 ">
                     <div class="my-custom-gallary custom-gallary-position mb-4">
@@ -134,7 +142,7 @@
         </section>
 
         <!-- Carousel Slide Part -->
-        <section class="container px-3">
+        <section id="clients" class="container px-3 my-custom-margin">
             <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active ">
@@ -184,51 +192,11 @@
                     </div>
                 </div>
 
-                <!-- <div class="row">
-                <div class="col-lg-3">
-                    <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <p>11111</p>
-                            </div>
-                            <div class="carousel-item ">
-                                <p>22222</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item ">
-                                <p>33333</p>
-                            </div>
-                            <div class="carousel-item ">
-                                <p>444444</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div id="my-carousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item ">
-                                <p>55555</p>
-                            </div>
-                            <div class="carousel-item ">
-                                <p>666666</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
-                    <span class=" "><i class="fa-solid fa-left-long d-inline-block pb-0 text-dark"></i></span>
+                <button id="logo-carousel" class="carousel-control-prev" type="button" data-bs-target="#my-carousel" data-bs-slide="prev">
+                    <span class=" "><i class="fa-solid fa-left-long text-dark"></i></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
-                    <span class=" "><i class="fa-solid fa-right-long text-dark"></i></i></span>
+                <button id="logo-carousel" class="carousel-control-next" type="button" data-bs-target="#my-carousel" data-bs-slide="next">
+                    <span class=" "><i class="fa-solid fa-right-long text-dark"></i></span>
                 </button>
 
 
@@ -236,7 +204,7 @@
         </section>
 
         <!-- Graduation and Work -->
-        <section class="container">
+        <section id="education-work" class="container my-custom-margin">
             <div class="row">
                 <div class="col-lg-6">
                     <h4 class="text-center text-primary fs-1 mb-4"><i class="fa-solid fa-graduation-cap"></i></h4>
@@ -292,6 +260,163 @@
                 </div>
             </div>
         </section>
+
+        <!-- Carousel Blog Part -->
+        <section id="my-blogs" class="container  my-custom-margin">
+            <br><br>
+            <div id="mycar" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row  row-cols-sm-1 justify-content-center">
+                            <div class="col" style="width: 30%;">
+                                <div class="card mx-auto rounded-0 rounded-bottom" style="width: 297px;">
+                                    <div class="blog-carousel-img">
+                                        <a href=""><img src="images/alone_time.jpg" class="" width="100%" height="188px" alt=" "></a>
+                                    </div>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title">Importance of time</h4>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium?</p>
+                                        <a href="" class="card-link text-muted">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="width: 30%;">
+                                <div class="card mx-auto rounded-0 rounded-bottom" style="width: 297px;">
+                                    <div class="blog-carousel-img">
+                                        <a href=""><img src="images/place_i_like.jpg" class="" width="100%" height="188px" alt=" "></a>
+                                    </div>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title">Place I like to go</h4>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium?</p>
+                                        <a href="" class="card-link text-muted">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="width: 30%;">
+                                <div class="card rounded-bottom mx-auto rounded-0" style="width: 297px;">
+                                    <div class="blog-carousel-img">
+                                        <a href=""><img src="images/work_home1.jpg" class="" width="100%" height="188px" alt=" "></a>
+                                    </div>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title">Working from home</h4>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium?</p>
+                                        <a href="" class="card-link text-muted">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row  row-cols-sm-1 justify-content-center">
+                            <div class="col " style="width: 30%;">
+                                <div class="card mx-auto rounded-0 rounded-bottom" style="width: 297px;">
+                                    <div class="blog-carousel-img">
+                                        <a href=""><img src="images/coffee_shop.jpg" class="" width="100%" height="188px" alt=" "></a>
+                                    </div>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title">Favourite coffee place</h4>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium?</p>
+                                        <a href="" class="card-link text-muted">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="width: 30%;">
+                                <div class="card mx-auto rounded-0 rounded-bottom" style="width: 297px;">
+                                    <div class="blog-carousel-img">
+                                        <a href=""><img src="images/resort.jpg" class="" width="100%" height="188px" alt=" "></a>
+                                    </div>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title">Resort I like to stay</h4>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium?</p>
+                                        <a href="" class="card-link text-muted">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col" style="width: 30%;">
+                                <div class="card mx-auto rounded-0 rounded-bottom" style="width: 297px;">
+                                    <div class="blog-carousel-img">
+                                        <a href=""><img src="images/cat1.jpg" class="" width="100%" height="188px" alt=" "></a>
+                                    </div>
+                                    <div class=" card-body">
+                                        
+                                        <h4 class="card-title">Cat lover</h4>
+                                        <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, praesentium?</p>
+                                        <a href="" class="blog-carousel-link card-link text-muted">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                <button id="blog-carousel" class="carousel-control-prev" type="button" data-bs-target="#mycar" data-bs-slide="prev">
+                    <span class=" "><i class="fa-solid fa-left-long text-dark"></i></span>
+                </button>
+                <button id="blog-carousel" class="carousel-control-next" type="button" data-bs-target="#mycar" data-bs-slide="next">
+                    <span class=" "><i class="fa-solid fa-right-long text-dark"></i></span>
+                </button>
+            </div>
+
+        </section>
+
+
+        <!-- Footer Part -->
+        <section id="contacts" class="footer-bg">
+            <div class="container custom-padding">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <h1 class="footer-title fw-lighter">Get in Touch</h1>
+                        <div class="">
+                            <div class="social-icon">
+                                <a href=""><i class=" text-light fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="text-light fa-brands fa-twitter"></i></a>
+                                <a href=""><i class=" text-light fa-brands fa-pinterest"></i></a>
+                                <a href=""><i class=" text-light fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="blog-information">
+                                <h6 class="text-uppercase text-light">Phone:</h6>
+                                <p>+(976) 444 440 999</p>
+                                <h6 class="text-uppercase text-light">E-Mail:</h6>
+                                <p>example@mail.com</p>
+                                <h6 class="text-uppercase text-light">Address:</h6>
+                                <p>Sydney, Australia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="div">
+                            <form class="form-field">
+                                <div class="row">
+                                    <div class=" name-field col-sm-6">
+                                        <input class="footer-bg" type="text" placeholder="Name">
+                                    </div>
+                                    <div class=" email-field col-sm-6">
+                                        <input class="footer-bg" type="text" placeholder="E-Mail">
+                                    </div>
+                                </div>
+                                <input class="footer-bg" type="text" placeholder="Subject">
+                                <textarea class="footer-bg" name="" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                                <!-- <input class="btn" type="text" value="SUBMIT"> -->
+                                <button>Submit</button>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-light opacity-50 mb-0 pb-2">All Rights Reserved to <strong>Sadio Mane #10</strong> Senegal</p>
+        </section>
+
+
+        
 
 
 
